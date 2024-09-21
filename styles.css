@@ -1,0 +1,109 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; /* color de fondo de la navegación */
+    padding: 1em; /* espacio entre la navegación y el contenido */
+}
+
+nav li {
+    margin-right: 20px; /* espacio entre los elementos de la navegación */
+}
+
+nav a {
+    color: #fff; /* color de texto de la navegación */
+    text-decoration: none; /* quitar subrayado de los enlaces */
+    transition: color 0.2s ease; /* efecto de transición al pasar el mouse */
+}
+
+nav a:hover {
+    color: #ccc; /* color de texto al pasar el mouse */
+}
+
+nav a.active {
+    color: #fff; /* color de texto del elemento activo */
+    font-weight: bold; /* negrita para el elemento activo */
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #070707;
+}
+
+.features {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.cars {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.about {
+    background-color: #fff;
+    padding: 2em;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    margin-right: 20px;
+}
