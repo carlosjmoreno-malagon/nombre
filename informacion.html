@@ -1,38 +1,54 @@
-<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Carros</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles_carros.css">
+    <link rel="stylesheet" href="style_info.css">
 </head>
 <body>
-
-    <section class="cars">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="carros.html">Carros</a></li>
-                    <li><a href="informacion.html">Informacion</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-    <section class="about">
-        <h2>Acerca de nosotros</h2>
-        <div class="about-container">
-            <img src="imagenes/logo.jpg" alt="Logo de la tienda" class="logo">
-            <p>Somos una tienda de carros en línea que se compromete a brindarles a nuestros clientes la mejor experiencia de compra posible. Nuestra misión es proporcionar carros de alta calidad a precios competitivos.</p>
-            <h3>Nuestra historia</h3>
-            <p>Fundada en 2020, nuestra tienda ha crecido rápidamente gracias a nuestra pasión por los carros y nuestra dedicación a nuestros clientes. Nuestro equipo de expertos en carros trabajan arduamente para asegurarse de que cada cliente tenga una experiencia de compra satisfactoria.</p>
-            <h3>Nuestros valores</h3>
-            <ul>
-                <li>Calidad: Nos comprometemos a brindar carros de alta calidad que cumplan con las expectativas de nuestros clientes.</li>
-                <li>Precio: Nos esforzamos por ofrecer precios competitivos para que nuestros clientes puedan obtener el mejor valor por su dinero.</li>
-                <li>Servicio: Nuestro equipo de atención al cliente está disponible para ayudar a nuestros clientes en cualquier momento.</li>
-            </ul>
+    <header>
+        <div class="logo-container">
+            <!-- Aquí puedes colocar tu logo -->
+            <img src="imagenes/logo.png" alt="Logo Tienda de Carros" class="logo">
         </div>
-    </section>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="carros.html">Carros</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bienvenidos a Tienda de Carros</h1>
+            <p>Tu auto ideal está a un clic de distancia.</p>
+            <a href="carros.html" class="btn-cta">Ver Carros</a>
+        </section>
+
+        <section class="about">
+            <h2>Acerca de nosotros</h2>
+            <div class="about-container">
+                <p>Somos una tienda de carros en línea que se compromete a brindar la mejor experiencia de compra posible. Nuestra misión es proporcionar carros de alta calidad a precios competitivos.</p>
+                <h3>Nuestra historia</h3>
+                <p>Fundada en 2024, hemos crecido rápidamente gracias a nuestra pasión por los autos y dedicación a nuestros clientes. Nuestro equipo de expertos trabaja arduamente para asegurar que cada cliente tenga una experiencia de compra satisfactoria.</p>
+                <h3>Nuestros valores</h3>
+                <ul>
+                    <li><strong>Calidad:</strong> Carros que cumplen con las expectativas de nuestros clientes.</li>
+                    <li><strong>Precio:</strong> Ofrecemos precios competitivos para maximizar el valor de cada compra.</li>
+                    <li><strong>Servicio:</strong> Atención al cliente personalizada en cualquier momento.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Carros. Todos los derechos reservados.</p>
+    </footer>
 </body>
+</html>
